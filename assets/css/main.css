@@ -1362,7 +1362,9 @@ button,
   cursor: default; }
   #header header {
     display: inline-block;
-    padding: 0 0 4.5em 0; }
+    padding: 0 0 4.5em 0;
+	margin-top: -3rem;
+}
     #header header h1 {
       font-weight: 600;
       font-size: 2em;
