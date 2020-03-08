@@ -1,0 +1,206 @@
+<!DOCTYPE HTML>
+<!--
+	Overflow by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Matthew's Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+		<script src="https://unpkg.com/css-doodle@0.7.7/css-doodle.min.js"></script>
+
+		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+		<link rel="stylesheet" href="animate.min.css">
+
+	</head>
+	<body class="is-preload">
+
+
+<nav class="navbar navbar-expand-md bg-dark navbar-dark" id="nav">
+	<br>
+	<a class="navbar-brand" id="underline"></a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+	  <span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="collapsibleNavbar">
+	  <ul class="navbar-nav">
+		  <br>
+		<li class="nav-item">
+		  <a class="nav-link" id="underline" href="#butt">About Me</a>
+		</li>
+		<li class="nav-item">
+		  <a class="nav-link" id="underline" href="#first">Projects</a>
+		</li>
+		<li class="nav-item">
+		  <a class="nav-link"  id="underline" href="#lightbulb">Contact Me</a>
+
+		</li>    
+		<li>		  <img src="/images/lights.png" id="lights">
+		</li>
+	  </ul>
+	</div>  
+  </nav>
+  <br>
+  <div>
+<css-doodle> 
+	:doodle {
+		@grid: 1x3 / 35vmax;
+	position: absolute;
+	overflow:hidden;
+    top: 10%; left: 65%;
+    z-index: 0;
+	}
+
+	@size: 100% 150%;
+	position: absolute;
+  
+	background: @m(50, (
+		linear-gradient(transparent, @p(
+      #FFF000@repeat(2, @p([0-9a-f])), 
+      #FFF000@repeat(2, @p([0-9a-f])) 
+    ))
+		@r(0%, 100%) @r(0%, 100%) /
+		@r(3px) @r(23vmin)
+		no-repeat
+	));
+
+	will-change: transform;
+	animation: f 20s linear calc(-20s / @size() * @i()) infinite;
+	@keyframes f {
+		from { transform: translateY(-100%) }
+		to { transform: translateY(100%) }
+	}
+</css-doodle>
+</div>
+		<!-- Header -->
+			<section id="header">
+				<header class="headborder">
+					
+
+					<h1 class="head1 ">Matthew James Rodriguez</h1>
+					<p class="head1 "> Software Engineer <br><br>I'm a passionate developer dedicated to technology</p>
+
+				
+
+				
+				</header>
+
+				<ul class="icons" id="icons">
+					<li><a href="https://www.linkedin.com/in/matthew-rodriguez-080697146/" id="icons" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+					<li><a href="https://github.com/Matthew-Rodriguez" id="icons" class="icon brands fab fa-github"><span class="label">git</span></a></li>
+	
+				</ul>
+			
+				<footer>
+					<a href="#banner" class="button style2 scrolly-middle" id="butt">About me</a>
+				</footer>
+			</section>
+
+		<!-- Banner -->
+			<section id="banner">
+				<header>
+					<h2>nice to meet you</h2>
+			<div id="shake"><div class="icons fas fa-handshake shake"></div></div>		
+				</header>
+				<p class="space">Motivated Frontend Developer currently residing in Los Angeles.<br> I have experience working with <b>React , Javascript , HTML5 , and CSS3</b> with preprocessors like <b>Sass.</b> For UI design, I tend to use <b>Figma</b> to create a mock-up. What I love most about code is the ability to act upon creative ideas and bring them to life, especially those that serve purpose.<br><br>If there's something I dont know, it's something I'll learn.<br> With everyday that goes by, I am dedicated to becoming a better developer than the day before.</p>
+				<footer>
+					<a href="#first" class="button style2 scrolly" id="projects">Projects</a>
+				</footer>
+			</section>
+
+		<!-- Feature 1 -->
+			<article id="first" class="container box style1 right">
+				<a class="fit image move"><img src="/images/gozen.png" class="con" alt="" /></a>
+				<div class="inner">
+					<header id="z">
+						<h3>Restaurant website</h3>
+						<a href="https://github.com/Matthew-Rodriguez/gozenupdated.github.io" class="button code scrolly-middle">View Code</a>
+						<a href="http://gozenjapaneserestaurant.com/" class="button code scrolly-middle">Website</a>
+
+					</header>
+					<p>Built for one of Visalia's top rated restaurants, <b>I used HTML5, CSS/Sass, Javascript, and React.</b> I also went through the configurations of deploying it using <b>Cyberduck and Hostgator.</b><br><br>Highly responsive on all devices; utilized CSS Grid to achieve that.</p><br><p><b>Key Takeaways:</b> Performance grade ranked as an A. increased 20 points higher than the old website. Site speed also ran 15% quicker according to Google's website tester </p>				</div>
+			</article>
+
+		<!-- Feature 2 -->
+			<article class="container box style1 left">
+				<a class="image fit"><img src="/images/weather.png" class="con" alt="" /></a>
+				<div class="inner">
+					<header>
+						<h2>Weather app</h2>
+						<a href="https://github.com/Matthew-Rodriguez/my-app" class="button code scrolly-middle">View Code</a>
+						<a href="https://matthew-rodriguez.github.io/my-app/" class="button code scrolly-middle">Website</a>
+					</header>
+					<p>Figured I need to ramp up my understanding of using <b>React.js</b> to fetch data from an API and affect state, so that's exactly what I did.<br><br> Any city you type in, my app will pull location, degrees, and the condition.
+
+
+						<br><br><b>Key Achievements:</b> Using react components to dynamically change the content being inputted. Converting the degrees data that initially was in celcius, to fahrenheit.</p>
+				</div>
+			</article>
+
+			<article id="first" class="container box style1 right">
+				<a class="fit image move"><img src="/images/cyberwear.png" class="con" alt="" /></a>
+				<div class="inner">
+					<header id="z">
+						<h3>ECommece Website</h3>
+						<a href="https://github.com/Matthew-Rodriguez/cyberr" class="button code scrolly-middle">View Code</a>
+						<a href="https://matthew-rodriguez.github.io/cyberr/" class="button code scrolly-middle">Website</a>
+
+					</header>
+					<p>I wanted to create something visually pleasing, so I utilized<b> HTML5, CSS/Sass, and Javascript </b>for this project. After creating, I really got to grasp the importance of components and the usefulness of React. </p><br><p>	</div>
+			</article>
+
+			<article class="container box style1 left">
+				<a class="image fit"><img src="/images/connect.gif" class="con" alt="" /></a>
+				<div class="inner">
+					<header>
+						<h2>Connect 4</h2>
+						<a href="https://github.com/Matthew-Rodriguez/arcade.github.io/tree/master/connect4" class="button code scrolly-middle">View Code</a>
+						<a href="https://matthew-rodriguez.github.io/arcade.github.io/connect4/connect.html" class="button code scrolly-middle">Website</a>
+					</header>
+					<p>My first vanilla javascript project created around summer of 2019.</p>
+
+
+				</div>
+			</article>
+
+		<!-- Portfolio -->
+			<article class="container box style2">
+				<header>
+					<h2>Lets work!</h2>
+					<div id="lightbulb" class=" fas fa-lightbulb"></div>
+
+					<p>email me @mrodvusd36@gmail.com</p>
+				</header>
+			
+			
+	
+
+		<section id="footer">
+			<ul class="icons">
+				<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+				<li><a href="#" class="icon brands fab fa-github" ><span class="label">git</span></a></li>
+
+			</ul>
+		</section>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
