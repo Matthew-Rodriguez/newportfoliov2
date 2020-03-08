@@ -98,7 +98,9 @@ margin-top: -1rem;
 
 html {
   overflow-x: hidden !important;
-  scroll-behavior: smooth; }
+  scroll-behavior: smooth;
+margin-top: -1rem;
+}
 
 #lights {
   width: 90%;
