@@ -35,7 +35,9 @@
 
 body {
   background: rgba(255, 255, 255, 0.7) !important;
-  overflow-x: hidden !important; }
+  overflow-x: hidden !important; 
+margin-top: -1rem;
+}
 
 .space {
   padding: 2rem; }
